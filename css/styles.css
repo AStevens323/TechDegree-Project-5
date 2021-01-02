@@ -3,7 +3,15 @@
 
 }
 
-.body-wrapper {
+.grid-wrapper {
+    max-width: 1030px;
     display: grid;
+    grid-template-columns: repeat(4,22%);
+    grid-row-gap: 20px;
+    justify-items: center;
+}
 
+main {
+
+    
 }
