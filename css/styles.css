@@ -4,14 +4,7 @@
 }
 
 .grid-wrapper {
-    max-width: 1030px;
+    max-width: 1000px;
     display: grid;
-    grid-template-columns: repeat(4,22%);
-    grid-row-gap: 20px;
-    justify-items: center;
-}
 
-main {
-
-    
 }
