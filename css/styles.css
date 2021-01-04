@@ -13,11 +13,31 @@
    
     /*Explicit Grid Layout-------------------------------------------------------------------------------------------------------------*/
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: repeat(minmax(150px, 1fr));
+    grid-template-rows:minmax(150px, 1fr);
 
-
-/*END GRID STYLING---------------------------------------------------------------------------------------------------------------------*/
 }
+
+.grid-wrapper .box1 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    }
+
+.grid-wrapper .box2 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    }
+
+.grid-wrapper .box3 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.grid-wrapper .box4 {
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+/*END GRID STYLING---------------------------------------------------------------------------------------------------------------------*}
 
 /*SEARCH BAR STYLING*/
 .search-container {
