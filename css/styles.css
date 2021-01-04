@@ -13,15 +13,11 @@
    
     /*Explicit Grid Layout-------------------------------------------------------------------------------------------------------------*/
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: minmax(150px, 1fr);
-    
-    /*Implicit Grid Styling-----------------------------------------------------------------------------------------------------------*/
-    grid-auto-columns:repeat(auto-fit, minmax(200px, 1fr));
-    grid-auto-rows: repeat(auto-fit, minmax(200px, auto));
-}
+    grid-template-rows: repeat(minmax(150px, 1fr));
+
 
 /*END GRID STYLING---------------------------------------------------------------------------------------------------------------------*/
-
+}
 
 /*SEARCH BAR STYLING*/
 .search-container {
@@ -31,7 +27,7 @@
 input {
     padding: 15px;
     margin-bottom: 25px;
-    width: 50%;
+    width: 40%;
     border-radius: 5px;
     border: 2px solid rgba(99, 99, 99, 0.3);
     margin-top: 30px;

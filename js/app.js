@@ -1,2 +1,2 @@
-baguetteBox.run('.gallery');​
-const search = new Filter('search', 'data-caption');​
+baguetteBox.run('.grid-wrapper');
+const search = new Filter('search', 'data-caption');
